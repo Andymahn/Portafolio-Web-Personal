@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+:root{
+	--color-menu:#333446;
+	--color-menu-hover:#F3F4F4;
+	--color-body:#000;
+	--color-primary:#7F8CAA;
+	--color-fondo-1: #EAEFEF;
+	--color-fonfo-2: #1D546D;
+
+		
+}
+
+#logo{
+	height: 70px;
+}
+
+body{
+	font-family: "Handlee", cursive;
+ 	font-weight: 400;
+  	font-style: normal;
+}
+
+.section{
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.footer{
+	background-color: var(--color-fondo-1);
+}
+
+#hero{
+	background-image: url("../img/fondo-hero-2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.40);
+	background-blend-mode: multiply;
+	padding: 12% 0;
+	text-align: center;
+	color: #fff;
+}
+
+#hero h1{
+	font-size: 70px;
+}
+
+#hero p{
+	font-size: 20px;
+}
+
+#gato{
+	height: 300px;
+	padding-left: 90px;
+}
+
+#servicios{
+	background-color: var(--color-fondo-1);
+}
+
+#acerca h1{
+	padding-top: 80px;
+}
+
+#acerca h4{
+	font-weight: 400;
+}
+
+.fa-solid{
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+.icono-circulo{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background-color: #fff;
+	border-radius: 100%;
+	font-size: 40px;
+	box-shadow: 0px 0px 10px 0px #ddd;
+}
+
+.caras{
+	padding-left: 30px;
+}
+
+
+
